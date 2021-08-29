@@ -43,7 +43,7 @@ A newline separated list of markdown-formatted changelog entries that look like:
 
 ```
 - name: Generate changelog
-  uses: shanemcd/changelog-action@main
+  uses: shanemcd/simple-changelog-generator@v1
   id: changelog
   with:
     repo: "${{ github.repository }}"
